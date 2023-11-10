@@ -1,4 +1,6 @@
 plugin: kubevirt.core.kubevirt
 connections:
-- validate_certs: false
+  - validate_certs: false
 ## Host and API Key are set from K8S_AUTH_HOST & K8S_AUTH_API_KEY
+## Rerfer to the github python file for more information
+## https://github.com/kubevirt/kubevirt.core/blob/main/plugins/inventory/kubevirt.py
