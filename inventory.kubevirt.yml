@@ -1,5 +1,4 @@
 plugin: kubevirt.core.kubevirt
 connections:
-- host: '{{ my_host }}'
-  api_key: '{{ my_api_key}}'
-  validate_certs: false
+- validate_certs: false
+## Host and API Key are set from K8S_AUTH_HOST & K8S_AUTH_API_KEY
