@@ -1,5 +1,5 @@
 plugin: kubevirt.core.kubevirt
 connections:
-- host: "{{ env.my_host }}"
-  api_key: "{{ env.my_api_key}}"
+- host: '{{ my_host }}'
+  api_key: '{{ my_api_key}}'
   validate_certs: false
